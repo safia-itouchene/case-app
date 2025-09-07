@@ -57,14 +57,7 @@ const HeaderComponent = () => {
             Design Your Case
           </Link>
 
-          <Link
-            to="/design"
-            className="lg:hidden px-3 py-1.5 rounded-full bg-gray-900 text-white text-xs font-medium hover:bg-black transition"
-            aria-label="Design your case"
-          >
-            Design
-          </Link>
-
+         
           <Link
             to="/notifications"
             className="hidden sm:block p-2 rounded-full hover:bg-gray-100 transition"
