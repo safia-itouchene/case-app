@@ -10,7 +10,7 @@ import { ContactPage } from './pages/ContactUs';
 function App() {
   return (
     <CartProvider>
-      <Router>
+      <Router  basename="/case-app/">
         <div className="min-h-screen">
           
           <Header />
