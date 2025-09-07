@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+@layer utilities {
+  .font-alex {
+    font-family: 'Alex Brush', cursive;
+  }
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-scroll {
+  display: flex;
+  animation: scroll 25s linear infinite;
+  width: max-content;
+}
+
+
+.no-scrollbar {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;             
+}
